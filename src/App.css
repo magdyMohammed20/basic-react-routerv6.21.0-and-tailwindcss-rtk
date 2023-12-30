@@ -1,0 +1,13 @@
+#root {
+  min-height: calc(100vh - 73px);
+}
+.main-parent {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.hero {
+  min-height: calc(100vh - 73px);
+  margin-top: 23px;
+}
